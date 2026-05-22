@@ -1,6 +1,6 @@
-# 🤖 AIBOT
+# Neiroweb
 
-AIBOT is a Python AI CLI + GUI tool powered by Pollinations AI.
+Neiroweb is a Python AI CLI + GUI tool powered by Pollinations AI.
 
 It allows you to interact with AI using:
 - Terminal commands
@@ -14,7 +14,7 @@ It allows you to interact with AI using:
 Install via pip:
 
 ```bash
-pip install aibot
+pip install neiroweb
 ```
 
 ---
@@ -24,25 +24,25 @@ pip install aibot
 Show help:
 
 ```bash
-aibot
+neiroweb
 ```
 
 Ask AI:
 
 ```bash
-aibot ask "Hello!"
+neiroweb ask "Hello!"
 ```
 
 Start terminal chat:
 
 ```bash
-aibot chat
+neiroweb chat
 ```
 
 Start graphical chat:
 
 ```bash
-aibot graphical_chat
+neiroweb graphical_chat
 ```
 
 ---
@@ -52,19 +52,19 @@ aibot graphical_chat
 Show history:
 
 ```bash
-aibot history
+neiroweb history
 ```
 
 Reset history:
 
 ```bash
-aibot history --reset
+neiroweb history --reset
 ```
 
 Set history manually:
 
 ```bash
-aibot history --set "['hello']"
+neiroweb history --set "['hello']"
 ```
 
 ---
@@ -74,13 +74,13 @@ aibot history --set "['hello']"
 To start the graphical AI chat interface:
 
 ```bash
-aibot graphical_chat
+neiroweb graphical_chat
 ```
 
 ### Python usage
 
 ```python
-from aibot.interactive import GraphicChat
+from neiroweb.interactive import GraphicChat
 
 app = GraphicChat()
 app.run()
@@ -101,7 +101,7 @@ https://text.pollinations.ai
 ## 📁 Project Structure
 
 ```text
-aibot/
+neiroweb/
 ├── __init__.py
 ├── __main__.py
 ├── cli.py
@@ -134,7 +134,7 @@ Age: 11
 ## 📌 Run as module
 
 ```bash
-python -m aibot
+python -m neiroweb
 ```
 
 ---
